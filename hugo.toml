@@ -1,0 +1,18 @@
+baseURL = 'https://localhost:1313/'
+languageCode = 'zh-cn'
+title = 'Haokun Site'
+theme = 'blowfish'
+
+pagerSize = 10
+
+[params]
+ description = '记录一切'
+ # 主页显示设置（先按常见个人主页思路配）
+  [params.author]
+    name = "Haokun"
+    headline = "简陋小博客"
+    image = "img/8.png"
+    links = [
+      { github = "https://github.com/AyanamiiiiRei" },
+      { email = "mailto:haokunnnny@gmail.com" },
+    ]
